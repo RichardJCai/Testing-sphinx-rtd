@@ -13,6 +13,7 @@ Welcome to CheckDigitsValidator's documentation!
    
    license
    help
+   code
 
 
 
