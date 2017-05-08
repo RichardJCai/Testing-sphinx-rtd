@@ -18,7 +18,8 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('docs\Code'))
+ 
+sys.path.insert(0, os.path.abspath("../../Code"))
 
 
 # -- General configuration ------------------------------------------------

@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Auto Generated Documentation &#8212; CheckDigitsValidator 1.0.0 documentation</title>
+    <title>Code &#8212; CheckDigitsValidator 1.0.0 documentation</title>
     
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -43,7 +43,7 @@
           <div class="body" role="main">
             
   <div class="section" id="module-checkdigits">
-<span id="auto-generated-documentation"></span><h1>Auto Generated Documentation<a class="headerlink" href="#module-checkdigits" title="Permalink to this headline">¶</a></h1>
+<span id="code"></span><h1>Code<a class="headerlink" href="#module-checkdigits" title="Permalink to this headline">¶</a></h1>
 <p>Author: Richard Cai
 Date: 19 Nov 2014
 Description: Validates an ISBN10, ISBN13, or UPC number and returns if the number is valid or not</p>
@@ -69,6 +69,15 @@ Description: Validates an ISBN10, ISBN13, or UPC number and returns if the numbe
 <dt id="checkdigits.is_UPC">
 <code class="descclassname">checkdigits.</code><code class="descname">is_UPC</code><span class="sig-paren">(</span><em>number</em><span class="sig-paren">)</span><a class="headerlink" href="#checkdigits.is_UPC" title="Permalink to this definition">¶</a></dt>
 <dd><p>This function accepts an UPC number, adds the sum of the even number multiplied by 3 to the sum of the odd numbers, then subtracts the right digit of the value from 10. Returns True if the remainder is equal to the check digit and returns false otherwise.</p>
+</dd></dl>
+
+<span class="target" id="module-CheckDigitsValidator"></span><p>Author: Richard Cai
+Date: 19 Nov 2014
+Description: Displays a menu that allows the user to choose between validating ISBN-10, ISBN-13, UPC number or quit.</p>
+<dl class="function">
+<dt id="CheckDigitsValidator.main">
+<code class="descclassname">CheckDigitsValidator.</code><code class="descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#CheckDigitsValidator.main" title="Permalink to this definition">¶</a></dt>
+<dd><p>Mainline logic, prints the menu, accepts the user choice and calls the appropriate function to validate the number</p>
 </dd></dl>
 
 </div>
