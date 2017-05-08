@@ -6,3 +6,6 @@ Code
 	
 .. automodule:: CheckDigitsValidator
 	:members:
+	
+.. automodule:: moreTesting
+	:members:
