@@ -1,6 +1,8 @@
-Auto Generated Documentation
+Code
 ============================
 
 .. automodule:: checkdigits
 	:members:
 	
+.. automodule:: CheckDigitsValidator
+	:members:

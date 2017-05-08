@@ -18,7 +18,7 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('C:\Users\jcai\Workspace\Sphinx Testing\Checkdigit docs\docs\Code'))
+sys.path.insert(0, os.path.abspath('docs\Code'))
 
 
 # -- General configuration ------------------------------------------------
